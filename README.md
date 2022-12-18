@@ -1,18 +1,20 @@
 <h1 align="center">Welcome to java-springboot-simple-todo-list 👋</h1>
 <p>
-  <a href="https://twitter.com/SousaMardoqueu" target="_blank">
-    <img alt="Twitter: SousaMardoqueu" src="https://img.shields.io/twitter/follow/SousaMardoqueu.svg?style=social" />
+  <a href="https://twitter.com/SousaTelvina" target="_blank">
+    <img alt="Twitter: SousaTelvina" src="https://img.shields.io/twitter/follow/SousaTelvina.svg?style=social" />
   </a>
 </p>
 
 > In this repository I created a CRUD operations with Java Spring Boot.
 
+### ✨ [Demo](https://java-springboot-simple-todo-li.herokuapp.com/todo)
+
 ## Author
 
-👤 **Mardoqueu Sousa Telvina**
+👤 **Mardoqueu Sousa **
 
 * Website: https://react-portfolio-website-indol.vercel.app/
-* Twitter: [@SousaMardoqueu](https://twitter.com/SousaMardoqueu)
+* Twitter: [@SousaTelvina](https://twitter.com/SousaTelvina)
 * Github: [@Mardoqueu](https://github.com/Mardoqueu)
 * LinkedIn: [@mardoqueu-sousa](https://linkedin.com/in/mardoqueu-sousa)
 
