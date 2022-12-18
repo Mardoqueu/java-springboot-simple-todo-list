@@ -26,4 +26,9 @@ public class TodoController {
     public TodoItem save(@Validated @NonNull @RequestBody TodoItem todoItem){
         return todoRepository.save(todoItem);
     }
+
+    @PutMapping
+    public TodoItem update(@Validated @NonNull @RequestBody TodoItem todoItem){
+        return todoRepository.save(todoItem);
+    }
 }
