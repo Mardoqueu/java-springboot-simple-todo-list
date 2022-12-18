@@ -3,7 +3,10 @@ package com.mardoqueu.mardoqueu.todo.control;
 import com.mardoqueu.mardoqueu.todo.model.TodoItem;
 import com.mardoqueu.mardoqueu.todo.repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.lang.NonNull;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+
 
 import java.util.List;
 
@@ -20,7 +23,7 @@ public class TodoController {
     }
 
     @PostMapping
-    public TodoItem save(@RequestBody TodoItem todoItem){
+    public TodoItem save(@Validated @NonNull @RequestBody TodoItem todoItem){
         return todoRepository.save(todoItem);
     }
 }
